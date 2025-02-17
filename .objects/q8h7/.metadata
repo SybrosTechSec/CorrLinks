@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Chrome CorrLinks - Login",
+  "Type": "App",
+  "Id": "q8h7Vh5Ge0qVxKipuLXzLQ",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/q8h7Vh5Ge0qVxKipuLXzLQ",
+  "Created": "2025-02-17T12:11:54.257003Z",
+  "Updated": "2025-02-17T12:11:54.257003Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

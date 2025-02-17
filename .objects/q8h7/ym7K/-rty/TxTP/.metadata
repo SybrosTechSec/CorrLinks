@@ -1,0 +1,14 @@
+﻿{
+  "Name": "TEXTAREA textbox_8",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "TxTPzvBAC0Gq4bodrPQd4A",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/TxTPzvBAC0Gq4bodrPQd4A",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ",
+  "Created": "2025-02-17T12:11:54.6326829Z",
+  "Updated": "2025-02-17T12:11:54.6326829Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

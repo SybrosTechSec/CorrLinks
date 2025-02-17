@@ -129,7 +129,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1156,11626.4" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1156,12481.6" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="CurrentRow" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_EmailData" />
@@ -147,28 +147,28 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetEnvironmentVariable DisplayName="Get Environment Variable" sap:VirtualizedContainerService.HintSize="1052.8,112.8" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="CurrentDirectory" VariableValue="[CurrentPath]" />
-    <Sequence sap:VirtualizedContainerService.HintSize="1052.8,11490.4" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="1052.8,12345.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" sap:VirtualizedContainerService.HintSize="1019.2,11407.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" sap:VirtualizedContainerService.HintSize="1019.2,12262.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,11127.2" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,12022.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NCheckState DisplayName="Check App State 'Email Address'" sap:VirtualizedContainerService.HintSize="952,995.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+              <uix:NCheckState DisplayName="Check App State 'Email Address'" sap:VirtualizedContainerService.HintSize="952,1171.2" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                 <uix:NCheckState.IfExists>
-                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,744.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                  <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,920.8" sap2010:WorkflowViewState.IdRef="Sequence_4">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -190,11 +190,12 @@
                         </uix:TargetAnchorable>
                       </uix:NTypeInto.Target>
                     </uix:NTypeInto>
-                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Login" sap:VirtualizedContainerService.HintSize="416,182.4" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Login" sap:VirtualizedContainerService.HintSize="416,189.6" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                       <uix:NClick.Target>
                         <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/login" CVScreenId="61cc931d-52d9-4069-b369-bab294cb44bb" DesignTimeRectangle="998, 641, 100, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='login' tag='BUTTON' /&gt;" Guid="39e3855f-226a-45b8-8d5f-e21c8951da5e" ImageBase64="" InformativeScreenshot="af19a9bba968c5aaf513e65477c46bd8.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Login' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                       </uix:NClick.Target>
                     </uix:NClick>
+                    <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,168.8" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Log in Successful&quot;]" />
                   </Sequence>
                 </uix:NCheckState.IfExists>
                 <uix:NCheckState.IfNotExists>
@@ -211,9 +212,8 @@
                   <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/login" DesignTimeRectangle="991, 685, 113, 17" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Forgot Password?' innertext='Forgot Password?' visibleinnertext='Forgot Password?' /&gt;" Guid="0c441b99-ea75-418b-aadf-91e63c7ea9a1" ImageBase64="" InformativeScreenshot="a0ea9c5782187651a66cc67e14a34211.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Login' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                 </uix:NCheckState.Target>
               </uix:NCheckState>
-              <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,176" sap2010:WorkflowViewState.IdRef="LogMessage_3" Level="Info" Message="[&quot;Log in Successful&quot;]" />
               <uix:NGoToUrl DelayBefore="10" DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="952,114.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="www.corrlinks.com/" Version="V4" />
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="952,9780" sap2010:WorkflowViewState.IdRef="Sequence_30">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="952,10675.2" sap2010:WorkflowViewState.IdRef="Sequence_30">
                 <sap:WorkflowViewStateService.ViewState>
                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -240,23 +240,49 @@
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="814.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_4" Level="Info" Message="[&quot;Successfully came to Email Compose page&quot;]" />
                 <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_EmailData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="814.4,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="EmailData" WorkbookPath="[path.Combine(CurrentPath,&quot;Data/CorrLink.xlsx&quot;)]" />
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="814.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Successfully Read Workbook&quot;]" />
-                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="814.4,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
-                  <ui:MultipleAssign.AssignOperations>
-                    <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
-                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
-                        <ui:AssignOperation.To>
-                          <OutArgument x:TypeArguments="x:String">[Subject]</OutArgument>
-                        </ui:AssignOperation.To>
-                        <ui:AssignOperation.Value>
-                          <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER</InArgument>
-                        </ui:AssignOperation.Value>
-                      </ui:AssignOperation>
-                      <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
-                        <ui:AssignOperation.To>
-                          <OutArgument x:TypeArguments="x:String">[EmailBody]</OutArgument>
-                        </ui:AssignOperation.To>
-                        <ui:AssignOperation.Value>
-                          <InArgument x:TypeArguments="x:String" xml:space="preserve">["Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add Jeremy@guestandgray.com to your email list. You can call my office at 972-564-4644 to speak to an attorney about your case today.
+                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click To Dropdown" sap:VirtualizedContainerService.HintSize="814.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_78" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="300" Version="V4">
+                  <uix:NClick.Target>
+                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="1042, 336, 18, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;div&amp;gt;app-message-detail&amp;gt;div&amp;gt;section&amp;gt;form&amp;gt;div&amp;gt;ejs-multiselect&amp;gt;div&amp;gt;div&amp;gt;span' idx='4' isleaf='1' tag='SPAN' /&gt;" Guid="3f9b9a8f-4b74-446d-840c-2814c04769d9" ImageBase64="" InformativeScreenshot="b0e2c7ce735ec0ac2d5aa14599799158.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+                      <uix:TargetAnchorable.PointOffset>
+                        <uix:PointOffset X="-3" Y="-4" />
+                      </uix:TargetAnchorable.PointOffset>
+                    </uix:TargetAnchorable>
+                  </uix:NClick.Target>
+                </uix:NClick>
+                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="814.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;DropDown For Sender Clicked &quot;]" />
+                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="814.4,8513.6" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                  <ui:ForEachRow.Body>
+                    <ActivityAction x:TypeArguments="sd:DataRow">
+                      <ActivityAction.Argument>
+                        <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
+                      </ActivityAction.Argument>
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="780.8,8316" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                        <Sequence.Variables>
+                          <Variable x:TypeArguments="x:String" Name="CurrentMonth" />
+                        </Sequence.Variables>
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="747.2,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_12">
+                          <ui:MultipleAssign.AssignOperations>
+                            <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_26">
+                                <ui:AssignOperation.To>
+                                  <OutArgument x:TypeArguments="x:String">[Subject]</OutArgument>
+                                </ui:AssignOperation.To>
+                                <ui:AssignOperation.Value>
+                                  <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER</InArgument>
+                                </ui:AssignOperation.Value>
+                              </ui:AssignOperation>
+                              <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_27">
+                                <ui:AssignOperation.To>
+                                  <OutArgument x:TypeArguments="x:String">[EmailBody]</OutArgument>
+                                </ui:AssignOperation.To>
+                                <ui:AssignOperation.Value>
+                                  <InArgument x:TypeArguments="x:String" xml:space="preserve">["Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add Jeremy@guestandgray.com to your email list. You can call my office at 972-564-4644 to speak to an attorney about your case today.
 DOJ Issues New Charging and Sentencing Policies
 Acting (as of the time of this writing) Attorney General Pam Bondi and the Department of Justice have issued a memorandum regarding charging decisions for accused persons. Let's take a look at this memo and discuss how it affects charging decisions.
 A Prosecutor's Discretion
@@ -302,37 +328,11 @@ Attorney
 jeremy@guestandgray.com
 972-483-4865
 "]</InArgument>
-                        </ui:AssignOperation.Value>
-                      </ui:AssignOperation>
-                    </scg:List>
-                  </ui:MultipleAssign.AssignOperations>
-                </ui:MultipleAssign>
-                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click To Dropdown" sap:VirtualizedContainerService.HintSize="814.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_78" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="300" Version="V4">
-                  <uix:NClick.Target>
-                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="1042, 336, 18, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;div&amp;gt;app-message-detail&amp;gt;div&amp;gt;section&amp;gt;form&amp;gt;div&amp;gt;ejs-multiselect&amp;gt;div&amp;gt;div&amp;gt;span' idx='4' isleaf='1' tag='SPAN' /&gt;" Guid="3f9b9a8f-4b74-446d-840c-2814c04769d9" ImageBase64="" InformativeScreenshot="b0e2c7ce735ec0ac2d5aa14599799158.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
-                      <uix:TargetAnchorable.PointOffset>
-                        <uix:PointOffset X="-3" Y="-4" />
-                      </uix:TargetAnchorable.PointOffset>
-                    </uix:TargetAnchorable>
-                  </uix:NClick.Target>
-                </uix:NClick>
-                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="814.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_8" Level="Info" Message="[&quot;DropDown For Sender Clicked &quot;]" />
-                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="814.4,7438.4" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
-                  <ui:ForEachRow.Body>
-                    <ActivityAction x:TypeArguments="sd:DataRow">
-                      <ActivityAction.Argument>
-                        <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
-                      </ActivityAction.Argument>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="780.8,7240.8" sap2010:WorkflowViewState.IdRef="Sequence_31">
-                        <Sequence.Variables>
-                          <Variable x:TypeArguments="x:String" Name="CurrentMonth" />
-                        </Sequence.Variables>
-                        <sap:WorkflowViewStateService.ViewState>
-                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                          </scg:Dictionary>
-                        </sap:WorkflowViewStateService.ViewState>
+                                </ui:AssignOperation.Value>
+                              </ui:AssignOperation>
+                            </scg:List>
+                          </ui:MultipleAssign.AssignOperations>
+                        </ui:MultipleAssign>
                         <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="747.2,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
                           <ui:MultipleAssign.AssignOperations>
                             <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
@@ -391,7 +391,7 @@ jeremy@guestandgray.com
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:ForEach>
-                        <If Condition="[String.IsNullOrEmpty(CurrentRow(&quot;Count&quot;).ToString())]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="747.2,6324" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If Condition="[String.IsNullOrEmpty(CurrentRow(&quot;Count&quot;).ToString())]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="747.2,7219.2" sap2010:WorkflowViewState.IdRef="If_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -399,7 +399,7 @@ jeremy@guestandgray.com
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1772.8" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,2071.2" sap2010:WorkflowViewState.IdRef="Sequence_35">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -427,11 +427,35 @@ jeremy@guestandgray.com
                                   </uix:TargetAnchorable>
                                 </uix:NTypeInto.Target>
                               </uix:NTypeInto>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="478.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Version="V4">
-                                <uix:NTypeInto.Target>
-                                  <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
-                                </uix:NTypeInto.Target>
-                              </uix:NTypeInto>
+                              <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="478.4,92" sap2010:WorkflowViewState.IdRef="SetToClipboard_3" Text="[EmailBody]" />
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TEXTAREA textbox_8'" sap:VirtualizedContainerService.HintSize="478.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_85" InteractionMode="HardwareEvents" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="4576a834-0cfa-41ed-a966-342b7986be2d" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_*' tag='TEXTAREA' /&gt;" Guid="356e0567-4dd4-42e3-80f7-d97de8240063" InformativeScreenshot="acff7741af189e5d64f57ed03a95ed76.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="478.4,210.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_2" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V4" />
+                              <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_6">
+                                <ui:CommentOut.Body>
+                                  <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,301.6" sap2010:WorkflowViewState.IdRef="Sequence_65">
+                                    <sap:WorkflowViewStateService.ViewState>
+                                      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      </scg:Dictionary>
+                                    </sap:WorkflowViewStateService.ViewState>
+                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,241.6" sap2010:WorkflowViewState.IdRef="NTypeInto_11" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Timeout="200" Version="V4">
+                                      <uix:NTypeInto.Target>
+                                        <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                      </uix:NTypeInto.Target>
+                                    </uix:NTypeInto>
+                                  </Sequence>
+                                </ui:CommentOut.Body>
+                                <sap:WorkflowViewStateService.ViewState>
+                                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                    <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                    <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                  </scg:Dictionary>
+                                </sap:WorkflowViewStateService.ViewState>
+                              </ui:CommentOut>
                               <ui:MultipleAssign sap2010:Annotation.AnnotationText="Adding Last Sent Date,Count and Current Month in Excel Sheet." DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,243.2" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
                                 <ui:MultipleAssign.AssignOperations>
                                   <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
@@ -503,14 +527,14 @@ jeremy@guestandgray.com
                             </Sequence>
                           </If.Then>
                           <If.Else>
-                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="713.6,4389.6" sap2010:WorkflowViewState.IdRef="Sequence_37">
+                            <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="713.6,4986.4" sap2010:WorkflowViewState.IdRef="Sequence_37">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                 </scg:Dictionary>
                               </sap:WorkflowViewStateService.ViewState>
                               <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="680,176" sap2010:WorkflowViewState.IdRef="LogMessage_12" Level="Info" Message="[&quot;Inside Count 1 loop&quot;]" />
-                              <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;1&quot;]" DisplayName="If Count is 1" sap:VirtualizedContainerService.HintSize="680,4153.6" sap2010:WorkflowViewState.IdRef="If_7">
+                              <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;1&quot;]" DisplayName="If Count is 1" sap:VirtualizedContainerService.HintSize="680,4750.4" sap2010:WorkflowViewState.IdRef="If_7">
                                 <sap:WorkflowViewStateService.ViewState>
                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -518,7 +542,7 @@ jeremy@guestandgray.com
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
                                 <If.Then>
-                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1596.8" sap2010:WorkflowViewState.IdRef="Sequence_55">
+                                  <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1895.2" sap2010:WorkflowViewState.IdRef="Sequence_55">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -545,11 +569,35 @@ jeremy@guestandgray.com
                                         </uix:TargetAnchorable>
                                       </uix:NTypeInto.Target>
                                     </uix:NTypeInto>
-                                    <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="478.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Version="V4">
-                                      <uix:NTypeInto.Target>
-                                        <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
-                                      </uix:NTypeInto.Target>
-                                    </uix:NTypeInto>
+                                    <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="478.4,92" sap2010:WorkflowViewState.IdRef="SetToClipboard_4" Text="[EmailBody]" />
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TEXTAREA textbox_8'" sap:VirtualizedContainerService.HintSize="478.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_86" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                      <uix:NClick.Target>
+                                        <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="4576a834-0cfa-41ed-a966-342b7986be2d" ContentHash="VNJsKHfGYUWuZHROhzXQYg" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_8' tag='TEXTAREA' /&gt;" Guid="356e0567-4dd4-42e3-80f7-d97de8240063" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" Reference="YDU8MSlOcUmlFkOMVuyVjw/XGG8k-kcM0u9X9ZasCCO8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                      </uix:NClick.Target>
+                                    </uix:NClick>
+                                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="478.4,210.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V4" />
+                                    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_7">
+                                      <ui:CommentOut.Body>
+                                        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,301.6" sap2010:WorkflowViewState.IdRef="Sequence_66">
+                                          <sap:WorkflowViewStateService.ViewState>
+                                            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                            </scg:Dictionary>
+                                          </sap:WorkflowViewStateService.ViewState>
+                                          <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,241.6" sap2010:WorkflowViewState.IdRef="NTypeInto_21" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Version="V4">
+                                            <uix:NTypeInto.Target>
+                                              <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                            </uix:NTypeInto.Target>
+                                          </uix:NTypeInto>
+                                        </Sequence>
+                                      </ui:CommentOut.Body>
+                                      <sap:WorkflowViewStateService.ViewState>
+                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                        </scg:Dictionary>
+                                      </sap:WorkflowViewStateService.ViewState>
+                                    </ui:CommentOut>
                                     <ui:MultipleAssign sap2010:Annotation.AnnotationText="Adding Last Sent Date,Count and Current Month in Excel Sheet." DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,243.2" sap2010:WorkflowViewState.IdRef="MultipleAssign_10">
                                       <ui:MultipleAssign.AssignOperations>
                                         <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
@@ -621,14 +669,14 @@ jeremy@guestandgray.com
                                   </Sequence>
                                 </If.Then>
                                 <If.Else>
-                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="646.4,2395.2" sap2010:WorkflowViewState.IdRef="Sequence_56">
+                                  <Sequence DisplayName="Else" sap:VirtualizedContainerService.HintSize="646.4,2693.6" sap2010:WorkflowViewState.IdRef="Sequence_56">
                                     <sap:WorkflowViewStateService.ViewState>
                                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       </scg:Dictionary>
                                     </sap:WorkflowViewStateService.ViewState>
                                     <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="612.8,176" sap2010:WorkflowViewState.IdRef="LogMessage_14" Level="Info" Message="[&quot;Inside Count 2 loop&quot;]" />
-                                    <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;2&quot;]" DisplayName="If Count is 2" sap:VirtualizedContainerService.HintSize="612.8,2159.2" sap2010:WorkflowViewState.IdRef="If_6">
+                                    <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;2&quot;]" DisplayName="If Count is 2" sap:VirtualizedContainerService.HintSize="612.8,2457.6" sap2010:WorkflowViewState.IdRef="If_6">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -636,13 +684,13 @@ jeremy@guestandgray.com
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
                                       <If.Then>
-                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="579.2,1908" sap2010:WorkflowViewState.IdRef="Sequence_53">
+                                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="579.2,2206.4" sap2010:WorkflowViewState.IdRef="Sequence_53">
                                           <sap:WorkflowViewStateService.ViewState>
                                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
-                                          <If Condition="[CurrentRow(&quot;Current Month&quot;).ToString&lt;&gt;CurrentMonth]" sap:VirtualizedContainerService.HintSize="545.6,1848" sap2010:WorkflowViewState.IdRef="If_8">
+                                          <If Condition="[CurrentRow(&quot;Current Month&quot;).ToString&lt;&gt;CurrentMonth]" sap:VirtualizedContainerService.HintSize="545.6,2146.4" sap2010:WorkflowViewState.IdRef="If_8">
                                             <sap:WorkflowViewStateService.ViewState>
                                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -650,7 +698,7 @@ jeremy@guestandgray.com
                                               </scg:Dictionary>
                                             </sap:WorkflowViewStateService.ViewState>
                                             <If.Then>
-                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1596.8" sap2010:WorkflowViewState.IdRef="Sequence_51">
+                                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,1895.2" sap2010:WorkflowViewState.IdRef="Sequence_51">
                                                 <sap:WorkflowViewStateService.ViewState>
                                                   <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -676,11 +724,35 @@ jeremy@guestandgray.com
                                                     </uix:TargetAnchorable>
                                                   </uix:NTypeInto.Target>
                                                 </uix:NTypeInto>
-                                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="478.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_23" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Version="V4">
-                                                  <uix:NTypeInto.Target>
-                                                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
-                                                  </uix:NTypeInto.Target>
-                                                </uix:NTypeInto>
+                                                <ui:SetToClipboard DisplayName="Set To Clipboard" sap:VirtualizedContainerService.HintSize="478.4,92" sap2010:WorkflowViewState.IdRef="SetToClipboard_5" Text="[EmailBody]" />
+                                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'TEXTAREA textbox_8'" sap:VirtualizedContainerService.HintSize="478.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_87" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                                  <uix:NClick.Target>
+                                                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="4576a834-0cfa-41ed-a966-342b7986be2d" ContentHash="VNJsKHfGYUWuZHROhzXQYg" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_8' tag='TEXTAREA' /&gt;" Guid="356e0567-4dd4-42e3-80f7-d97de8240063" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" Reference="YDU8MSlOcUmlFkOMVuyVjw/XGG8k-kcM0u9X9ZasCCO8Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                                  </uix:NClick.Target>
+                                                </uix:NClick>
+                                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="478.4,210.4" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V4" />
+                                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="478.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_8">
+                                                  <ui:CommentOut.Body>
+                                                    <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,301.6" sap2010:WorkflowViewState.IdRef="Sequence_67">
+                                                      <sap:WorkflowViewStateService.ViewState>
+                                                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                                        </scg:Dictionary>
+                                                      </sap:WorkflowViewStateService.ViewState>
+                                                      <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DelayBetweenKeys="0" DisplayName="Type Email Body" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="382.4,241.6" sap2010:WorkflowViewState.IdRef="NTypeInto_23" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[EmailBody]" Version="V4">
+                                                        <uix:NTypeInto.Target>
+                                                          <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_18' tag='TEXTAREA' /&gt;" Guid="4d52a0ad-8ac6-479b-93f0-15ed38cca4d8" ImageBase64="" InformativeScreenshot="d8e82e01ae434bf0680dc5904a0bb174.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                                        </uix:NTypeInto.Target>
+                                                      </uix:NTypeInto>
+                                                    </Sequence>
+                                                  </ui:CommentOut.Body>
+                                                  <sap:WorkflowViewStateService.ViewState>
+                                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                                    </scg:Dictionary>
+                                                  </sap:WorkflowViewStateService.ViewState>
+                                                </ui:CommentOut>
                                                 <ui:MultipleAssign sap2010:Annotation.AnnotationText="Adding Last Sent Date,Count and Current Month in Excel Sheet." DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="478.4,243.2" sap2010:WorkflowViewState.IdRef="MultipleAssign_8">
                                                   <ui:MultipleAssign.AssignOperations>
                                                     <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
@@ -796,7 +868,7 @@ jeremy@guestandgray.com
           </ActivityAction>
         </uix:NApplicationCard.Body>
         <uix:NApplicationCard.TargetApp>
-          <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" IconBase64="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" InformativeScreenshot="f40b988e6d146ed3a74eb66c1cbee455.jpg" Selector="&lt;html app='chrome.exe' title='CorrLinks - Login' /&gt;" Title="CorrLinks - Login" Url="www.corrlinks.com/en-US/" Version="V1" />
+          <uix:TargetApp Area="-8, -8, 1382, 744" BrowserType="Chrome" ContentHash="mxBjCnkeOUWpEORWAM_t0Q" IconBase64="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" InformativeScreenshot="f40b988e6d146ed3a74eb66c1cbee455.jpg" Reference="YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ" Selector="&lt;html app='chrome.exe' title='CorrLinks - Login' /&gt;" Title="CorrLinks - Login" Url="www.corrlinks.com/en-US/" Version="V1" />
         </uix:NApplicationCard.TargetApp>
         <sap:WorkflowViewStateService.ViewState>
           <scg:Dictionary x:TypeArguments="x:String, x:Object">

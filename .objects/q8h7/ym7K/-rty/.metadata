@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome CorrLinks - Login",
+  "Type": "Screen",
+  "Id": "-rtyIh7B1EW_bC5k2IIZxQ",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/ym7K6_50b0SGXsq62SFo8w",
+  "Created": "2025-02-17T12:11:54.2846599Z",
+  "Updated": "2025-02-17T12:11:54.2846599Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
