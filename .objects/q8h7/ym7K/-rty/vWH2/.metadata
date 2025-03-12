@@ -1,0 +1,14 @@
+﻿{
+  "Name": "INPUT textbox_7",
+  "Type": "Element",
+  "TaxonomyType": "Input",
+  "Id": "vWH2v4hv6UOQmkcEkxiOKw",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/vWH2v4hv6UOQmkcEkxiOKw",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ",
+  "Created": "2025-03-12T22:25:54.2945257Z",
+  "Updated": "2025-03-12T22:25:54.2945257Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

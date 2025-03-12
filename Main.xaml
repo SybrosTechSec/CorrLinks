@@ -129,7 +129,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1156,13881.600000000002" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1452.0000000000002,14071.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="CurrentRow" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_EmailData" />
@@ -147,20 +147,20 @@
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
     <ui:GetEnvironmentVariable DisplayName="Get Environment Variable" sap:VirtualizedContainerService.HintSize="1052.8,112.8" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="CurrentDirectory" VariableValue="[CurrentPath]" />
-    <Sequence sap:VirtualizedContainerService.HintSize="1052.8,13745.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence sap:VirtualizedContainerService.HintSize="1052.8,13935.2" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
           <x:Boolean x:Key="IsPinned">False</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" sap:VirtualizedContainerService.HintSize="1019.2,13662.4" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" sap:VirtualizedContainerService.HintSize="1019.2,13852" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,13422.4" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="985.6,13612" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -213,7 +213,7 @@
                 </uix:NCheckState.Target>
               </uix:NCheckState>
               <uix:NGoToUrl DelayBefore="10" DisplayName="Go To URL" sap:VirtualizedContainerService.HintSize="952,114.4" sap2010:WorkflowViewState.IdRef="NGoToUrl_2" Url="www.corrlinks.com/" Version="V4" />
-              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="952,12075.2" sap2010:WorkflowViewState.IdRef="Sequence_30">
+              <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="952,12264.8" sap2010:WorkflowViewState.IdRef="Sequence_30">
                 <Sequence.Variables>
                   <Variable x:TypeArguments="sd:DataTable" Name="WriteDT" />
                 </Sequence.Variables>
@@ -232,13 +232,13 @@
                 <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_EmailData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="814.4,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="EmailData" WorkbookPath="[path.Combine(CurrentPath,&quot;Data/CorrLink.xlsx&quot;)]" />
                 <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="814.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Successfully Read Workbook&quot;]" />
                 <ui:BuildDataTable DataTable="[WriteDT]" DisplayName="Build Data Table" sap:VirtualizedContainerService.HintSize="814.4,92" sap2010:WorkflowViewState.IdRef="BuildDataTable_1" TableInfo="&lt;NewDataSet&gt;&#xA;  &lt;xs:schema id=&quot;NewDataSet&quot; xmlns=&quot;&quot; xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot; xmlns:msdata=&quot;urn:schemas-microsoft-com:xml-msdata&quot;&gt;&#xA;    &lt;xs:element name=&quot;NewDataSet&quot; msdata:IsDataSet=&quot;true&quot; msdata:MainDataTable=&quot;TableName&quot; msdata:UseCurrentLocale=&quot;true&quot;&gt;&#xA;      &lt;xs:complexType&gt;&#xA;        &lt;xs:choice minOccurs=&quot;0&quot; maxOccurs=&quot;unbounded&quot;&gt;&#xA;          &lt;xs:element name=&quot;TableName&quot;&gt;&#xA;            &lt;xs:complexType&gt;&#xA;              &lt;xs:sequence&gt;&#xA;                &lt;xs:element name=&quot;Current_x0020_Month&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Last_x0020_Sent_x0020_Date&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xA;                &lt;xs:element name=&quot;Count&quot; msdata:DataType=&quot;System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e&quot; msdata:Caption=&quot;&quot; type=&quot;xs:anyType&quot; minOccurs=&quot;0&quot; /&gt;&#xA;              &lt;/xs:sequence&gt;&#xA;            &lt;/xs:complexType&gt;&#xA;          &lt;/xs:element&gt;&#xA;        &lt;/xs:choice&gt;&#xA;      &lt;/xs:complexType&gt;&#xA;    &lt;/xs:element&gt;&#xA;  &lt;/xs:schema&gt;&#xA;&lt;/NewDataSet&gt;" />
-                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="814.4,11235.2" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
+                <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="814.4,11424.8" sap2010:WorkflowViewState.IdRef="ForEachRow_3">
                   <ui:ForEachRow.Body>
                     <ActivityAction x:TypeArguments="sd:DataRow">
                       <ActivityAction.Argument>
                         <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                       </ActivityAction.Argument>
-                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="780.8,11044.8" sap2010:WorkflowViewState.IdRef="Sequence_31">
+                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="780.8,11234.4" sap2010:WorkflowViewState.IdRef="Sequence_31">
                         <Sequence.Variables>
                           <Variable x:TypeArguments="x:String" Name="CurrentMonth" />
                         </Sequence.Variables>
@@ -278,7 +278,7 @@
                                   <OutArgument x:TypeArguments="x:String">[Subject]</OutArgument>
                                 </ui:AssignOperation.To>
                                 <ui:AssignOperation.Value>
-                                  <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER</InArgument>
+                                  <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER March 12, 2025</InArgument>
                                 </ui:AssignOperation.Value>
                               </ui:AssignOperation>
                               <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_27">
@@ -286,52 +286,78 @@
                                   <OutArgument x:TypeArguments="x:String">[EmailBody]</OutArgument>
                                 </ui:AssignOperation.To>
                                 <ui:AssignOperation.Value>
-                                  <InArgument x:TypeArguments="x:String" xml:space="preserve">["Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add Jeremy@guestandgray.com to your email list. You can call my office at 972-564-4644 to speak to an attorney about your case today.
-DOJ Issues New Charging and Sentencing Policies
-Acting (as of the time of this writing) Attorney General Pam Bondi and the Department of Justice have issued a memorandum regarding charging decisions for accused persons. Let's take a look at this memo and discuss how it affects charging decisions.
-A Prosecutor's Discretion
-Generally speaking, federal prosecutors have a wide amount of discretion in determining what or who to charge with an offense. This discretion comes from both federal memoranda and their own internal regulations. Some of these concepts include:
--Probable Cause: Prosecutors must have sufficient evidence to show that the person committed a federal offense.
--Beyond a Reasonable Doubt: While probable cause is enough to charge, prosecutors must also consider whether they can prove guilt beyond a reasonable doubt at trial.
--Department of Justice Charging Policies (Justice Manual § 9-27.000): These DOJ guidelines instruct prosecutors to charge the most serious offense that is readily provable and aligns with federal law enforcement priorities.
--Discretion in Charging: Prosecutors can weigh factors such as the defendant’s background, criminal history, the severity of the offense, and broader policy goals (e.g., reducing racial disparities in sentencing).
--Severity of the Crime: More serious crimes (e.g., violent offenses, drug trafficking, fraud schemes) are more likely to be prosecuted.
-Criminal History: Repeat offenders may face more severe charges.
--Public Safety Concerns: Cases involving threats to the community, such as terrorism or organized crime, are a priority.
-Victim Impact: If a crime caused significant harm, prosecutors may pursue more aggressive charges.
--Evidentiary Strength: If a case has weak evidence, prosecutors may decline to charge or seek a plea deal instead of going to trial.
-Policy Priorities: Certain crimes (e.g., drug offenses, white-collar crimes) may receive more or less emphasis depending on DOJ leadership and national trends.
--Supervisory Approval Many charging decisions, especially those involving mandatory minimum sentences or significant policy implications, require approval from supervisors within the U.S. Attorney’s Office or DOJ leadership.
-Former AG Garland's Philosophy: Smart on Crime
-Former Attorney General Garland issued several memoranda on how accused persons should be charged. The basic idea behind large parts of that philosophy was the removal or policies that were, in their opinion, overly harsh towards drug offenders. Some of those concepts included:
--Charging Decisions &amp; Mandatory Minimums: Prosecutors should avoid charging drug quantities that trigger mandatory minimum sentences unless the case involves violence, weapons, trafficking with minors, ties to large-scale organizations, or a significant criminal history. If mandatory minimum charges are initially filed but later deemed unnecessary, prosecutors should adjust charges accordingly.
--Recidivist Enhancements: (21 U.S.C. § 851): Enhanced penalties for repeat drug offenders should only be pursued if they do not create unfair sentencing disparities. These enhancements should not be used to pressure defendants into guilty pleas.
--Sentencing Recommendations: Prosecutors should consider downward departures or variances when guidelines lead to excessive sentences, particularly for low-level offenders. Career offender enhancements should be applied carefully, with downward variances considered for nonviolent drug offenders.
--Crack vs. Powder Cocaine Sentencing: The Justice Department supports eliminating sentencing disparities between crack and powder cocaine. Prosecutors should charge and advocate for sentences as if crack cocaine were equivalent to powder cocaine.
--General Principles: Prosecutors must ensure fairness in sentencing while maintaining public safety. All sentencing recommendations should be transparent and proportionate to the defendant's actual conduct.
-It's important to note that in many cases, business as usual proceeded as usual: on many of our 3582 cases prosecutors argued for high sentences, for mandatory minimums to be enforced and for 851's to persist.
-Bondi's Philosophy: Charge the Highest Crime you can Prove
-Acting (again, as of the time of this writing) Attorney General Bondi's memo is a return to a more ""tough On crime"" approach. The memo works to advance President Trump's approach and are considered critical to addressing serious threats to the American people as this administration believes them to be.
-Here's how the memo significantly alters DOJ policies:
--Core Principle: Pursuing The Most Serious, Readily Provable Offense The DOJ is to pursue charges and sentences for the most serious, readily provable offenses, and prosecutors have the authority to do so. Any prior inconsistent DOJ policies are effectively rescinded, including the Garland memos. Each U.S. Attorney and Assistant Attorney General is responsible for ensuring this policy is followed.
--Faithful Execution of the Immigration Laws The DOJ will take steps to protect the public and secure the border by removing illegal aliens who have committed crimes. -U.S. Attorney's Offices should pursue charges related to immigration-related violations when presented by federal, state, or local law enforcement. Declination decisions related to immigration-related conduct must be disclosed as Urgent Reports to Justice Manual § 1-13.130.
--The Organized Crime Drug Enforcement Task Force (OCDETF) and the Project Safe Neighborhoods (PSN) program shall provide focused resources and attention to immigration-related prosecutions at the federal, state, and local levels.
--Homeland Security Task Forces FBI's Joint Terrorism Task Forces are directed to coordinate with DHS, as well as state and local members, to assist in the execution of President Trump's immigration-related initiatives.
--Impeding Executive Branch immigration initiatives: The memo prohibits disclosures of information to federal authorities engaged in immigration-enforcement activities that threaten public safety and national security.
-The Impact of the Bondi Memo
-This memorandum has different impacts on people depending on where their case is in the process:
-Persons who are facing pending criminal charges:
-This is totally a decision that has to happen between an accused person and their lawyer, but if there is an offer on the table that involves the non-filing of 851's or the non-filing of additional provable charges, then it may be time to consider such an offer before such offers get revoked. Again, it's just worth looking into.
-Persons who have been found guilty of charges and are engaged in post-conviction procedures:
-All of this gives me the impression that the DOJ will fight every case. Any sort of appeal or 2255 or other motion that has potential waivers in it will most likely also be fought regardless of prior actions.
-All in all, this is a significant shift towards a harsher Department of Justice.
+                                  <InArgument x:TypeArguments="x:String" xml:space="preserve">Hi Everyone,
+ 
+Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add jeremy@guestandgray.com to your email list. The email address info@topfederallawyer.com is used exclusively for the newsletter.
+
+Loper Bright in an FSA context:  using a case about Fish to seek the FSA time you deserve
+
+As we’ve covered elsewhere, the Loper Bright case, a case where the Supreme Court indicated that the deference that administrative agencies (such as the Bureau of Prisons) had previously no longer applies and that “[c]ourts are now required to first determine whether Congress explicitly delegated interpretive authority” to said agencies. Incarcerated persons may be able to file motions for relief in situations where they are being denied relief by the BOP. The Sharma case from the Middle District of Alabama gives an example. 
+
+The Loper Case revisited
+
+Loper deals with administrative agencies, their rules and regulations and the Administrative Procedures Act. Administrative Agencies (such as the Bureau of Prisons) were given rules on how to make regulations on matters that were under their purview but not explicitly dealt with by the statute.  
+
+Previous to the Loper Bright case, agencies were given a wide range of deference. This is because the agencies were the experts on the matters, not the courts.  This concept is called Chevron deference because of the case where it comes from.  
+
+In Loper Bright, the Supreme Court determined that “Courts are now required to first determine whether Congress explicitly delegated interpretive authority to the BOP regarding ambiguous terms” and then the courts must determine whether “Congress intended for the agency to have the power to interpret and define these terms[.  A]nd if not, the Court cannot defer to the agency’s interpretation but must resolve the ambiguity independently.”
+
+The Sharma Case:  Seeking FSA time. 
+
+Sharma sought a determination from the Court that he was eligible to receive FSA time during certain time periods where he was either n transfer status, time in the SHU and time where he was on holdover status for a presentencing bond violation. 
+The government indicated that he was not eligible during those time frames for various reasons: 
+
+From June 8 to 20, 2023, and from August 17, 2023, to October 10, 2023, the BOP considered Sharma at an “in-transit” facility and not at his designated facility thereby prohibiting him from earning FTCs… From June 28, 2023, to August 17, 2023, Sharma was in SHU in administrative detention which Respondents acknowledge does not normally disqualify an eligible inmate from earning FTCs, but “the problem for Sharma,” was his transfer to the Montgomery County Jail because his designated facility (FPC Montgomery) lacked a SHU. 
+
+The Court noted that the First Step Act created guidelines for a “risk and needs management system” where an inmate shall earn time credits for “successfully completing programming unless they are ineligible to earn these credits[.]”. The statute further goes on to state that “eligible inmates who successfully complete EBRR programming or PAs, shall earn time credits based on their PATTERN risk assessment score and its requirements for every 30 days of successful participation in FSA programming.”  The BOP stated that under their regulations that “an inmate is eligible to start earning FSA time credits when the inmate arrives at the designated BOP facility where the sentence will be served.”  This, according to the court, creates a “layer of eligibility not found in the statute conflicts with its express language (because the regulations add that the inmate has to get where they will be serving their sentence when the FSA doesn’t do that).”
+
+The court went on to say that it was “not convinced that Sharma’s purported inability to earn FTCs for which he was eligible was because he was housed outside of his designated facility. The language of 18 U.S.C.  3632(d)(4)(B) itself imposes no such limitation or exclusions on an inmate’s eligibility to earn FTCs nor does it impose any restrictions on the BOP from evaluating or determining an inmate’s participation in various programming across different BOP facilities.”  Further, the court stated that the exclusions in the BOP’s regulations, which are not found in the language of the FSA cannot be categorically applied to render Sharma ineligible from earning or applying time credits that he may be entitled to. The BOP was ordered to “calculate the FSA time credits Sharma has earned and continues to accrue and calculate and apply them in accordance with the applicable statutory requirements. Specifically, the BOP should consider whether Sharma met the specific requirements for EBRR programming and PAs under 18 U.S.C. 3632(d)(4) during the challenged disallowed periods and then recalculate Sharma’s time credits, if appropriate.”
+
+United States Sentencing Commission takes testimony on Pending Amendments
+
+The United States Sentencing Commission is taking testimony on March 12 and 13 regarding their pending amendments to the guidelines. 
+
+As many of you know, the Sentencing Commission considers amendments to the federal sentencing guidelines each year. These amendments have, in the past, resulted in changes to compassionate release policy, reductions in sentence under 3582, and other monumental changes. The sentencing commission is gearing up to vote on new amendments that will be promulgated in May and will become effective in November, provided that they are not voted down (which is rare). 
+
+Below are synopses of the proposed amendments. Important to note is that in some situations the Sentencing Commission is still weighing their options, meaning that they have not decided how they will amend some portions of the guidelines that they are considering. We will update you when they have promulgated guidelines. 
+
+1. PROPOSED AMENDMENT: SUPERVISED RELEASE Synopsis of Proposed Amendment: 
+
+The Sentencing Reform Act of 1984 establishes a framework for courts to order supervised release to be served after a term of imprisonment. See 18 U.S.C.  3583. For certain offenses, the court is statutorily required to impose a term of supervised release. See id. This framework aims to “assure that [those] who will need post-release supervision will receive it” while “prevent[ing] probation system resources from being wasted on supervisory services for releasees who do not need them.” See S. Rep. No. 225, 98th Cong., 1st Sess. 54 (1983); see also Johnson v. United States, 529 U.S. 694, 701 (2000) (“Supervised release departed from the parole system it replaced by giving district courts the freedom to provide postrelease supervision for those, and only those, who needed it.”). 
+
+The length of the term of supervised release that a court may select depends on the class of the offense of conviction. The term may be not more than five years for a Class A or Class B felony, not more than three years for a Class C or Class D felony, and not more than one year for a Class E felony or a misdemeanor (other than a petty offense). See 18 U.S.C.  3583(b). There is an exception for certain sex offenses and terrorism offenses, for which the term of supervised release may be up to life. See 18 U.S.C.  3583(j) and (k). 
+
+If a court imposes a term of supervised release, the court must order certain conditions of supervised release, such as that the defendant not commit another crime or unlawfully possess a controlled substance during the term, and that the defendant make restitution. See 18 U.S.C.  3583(d). The court may order other discretionary conditions it considers appropriate, as long as the condition meets certain criteria. See id. In determining whether to impose a term of supervised release and the length of the term and conditions of supervised release, the court must consider certain 18 U.S.C.  3553 factors. See 18 U.S.C.  3583(c). 
+
+Courts are authorized, under certain conditions, to extend or terminate a term of supervised release, or modify, enlarge, or reduce the conditions thereof. See 18 U.S.C.  3583(f). Before doing so, the court must consider the 18 U.S.C.  3553 factors listed above. See id. For certain violations, courts are required to revoke supervised release. See 18 U.S.C.  3583(g). 
+
+The Sentencing Commission’s policies regarding supervised release are included in Part D (Supervised Release) of Chapter Five (Determining the Sentence) and Part B (Probation and Supervised Release Violations) of Chapter Seven (Probation and Supervised Release Violations) of the Guidelines Manual. This proposed amendment contains two parts revising those policies: Part A would amend Part D of Chapter Five, which addresses the imposition of a term of supervised release. Issues for comment are also provided.  
+
+Part B would amend Chapter Seven, which addresses the procedures for handling a violation of the terms of probation and supervised release. Issues for comment are also provided. The Commission is considering whether to implement one or both parts, as they are not mutually exclusive.
+
+2. PROPOSED AMENDMENT: DRUG OFFENSES 
+
+Synopsis of Proposed Amendment: This proposed amendment contains five parts (Parts A through E). The Commission is considering whether to promulgate any or all of these parts, as they are not mutually exclusive. 
+
+Part A of the proposed amendment includes two subparts to address concerns that the Drug Quantity Table at subsection (c) of 2D1.1 (Unlawful Manufacturing, Importing, Exporting, or Trafficking (Including Possession with Intent to Commit These Offenses); Attempt or Conspiracy) overly relies on drug type and quantity as a measure of offense culpability and results in sentences greater than necessary to accomplish the purposes of sentencing. Subpart 1 sets forth three options for amending 2D1.1 to set the highest base offense level in the Drug Quantity Table at a lower base offense level. Subpart 2 sets forth two options for amending 2D1.1 to add a new specific offense characteristic providing for a reduction relating to low-level trafficking functions. Both subparts include issues for comment. 
+
+Part B of the proposed amendment includes two subparts. Subpart 1 would amend 2D1.1 to address offenses involving “Ice.” Subpart 2 sets forth two options for amending 2D1.1 to address the purity distinction in 2D1.1 between methamphetamine in “actual” form and methamphetamine as part of a mixture. Both subparts include issues for comment. 
+
+Part C of the proposed amendment would amend 2D1.1 to revise the enhancement for misrepresentation of fentanyl and fentanyl analogue at subsection (b)(13). Issues for comment are also provided. 
+
+Part D of the proposed amendment addresses the application of 2D1.1(b)(1) to machineguns. An issue for comment is also provided. 
+
+Part E of the proposed amendment would amend the Commentary to 5C1.2 (Limitation on Applicability of Statutory Minimum Sentences in Certain Cases) to address the manner by which a defendant may satisfy 5C1.2(a)(5)’s requirement of providing truthful information and evidence to the Government. An issue for comment is also provided.
+
 CONCLUSION
-That is all for now. Another Newsletter Will Come out Soon
-Jeremy Gordon
-Attorney
-jeremy@guestandgray.com
-972-483-4865
-"]</InArgument>
+That is all that I have for you this week.  Another newsletter will come out next week.  Take care and stay safe. 
+
+If you have submitted an email to info@gordondefense.com then please resubmit your email to my new email address. New inquiries should be directed to jeremy@guestandgray.com 
+
+Jeremy Gordon, Esq.
+Tel: 972-564-4644
+E-mail: info@topfederallawyer.com (newsletter sign-up)
+jeremy@guestandgray.com (retention inquiries)</InArgument>
                                 </ui:AssignOperation.Value>
                               </ui:AssignOperation>
                             </scg:List>
@@ -395,7 +421,7 @@ jeremy@guestandgray.com
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                         </ui:ForEach>
-                        <If Condition="[String.IsNullOrEmpty(CurrentRow(&quot;Count&quot;).ToString())]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="747.2,8851.2" sap2010:WorkflowViewState.IdRef="If_2">
+                        <If Condition="[String.IsNullOrEmpty(CurrentRow(&quot;Count&quot;).ToString())]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="747.2,9040.8" sap2010:WorkflowViewState.IdRef="If_2">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -403,7 +429,7 @@ jeremy@guestandgray.com
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
                           <If.Then>
-                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,2615.2" sap2010:WorkflowViewState.IdRef="Sequence_35">
+                            <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="512,2804.8" sap2010:WorkflowViewState.IdRef="Sequence_35">
                               <sap:WorkflowViewStateService.ViewState>
                                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -420,7 +446,12 @@ jeremy@guestandgray.com
                                   </uix:TargetAnchorable>
                                 </uix:NClick.Target>
                               </uix:NClick>
-                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Subject" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="478.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[Subject]" Version="V4">
+                              <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="2" DisplayName="Click 'INPUT textbox_7'" sap:VirtualizedContainerService.HintSize="478.4,189.6" sap2010:WorkflowViewState.IdRef="NClick_99" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick.Target>
+                                  <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="a2649d36-dd3c-43f0-a164-e086d093387a" DesignTimeRectangle="473, 583, 973, 48" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_*' tag='INPUT' aaname='Subject' /&gt;" Guid="89432ee0-3f51-416b-a760-3ee4586c8cf1" InformativeScreenshot="f3ece97e7aede6c9269c07ecd4f07586.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                </uix:NClick.Target>
+                              </uix:NClick>
+                              <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Subject" EmptyFieldMode="MultiLine" sap:VirtualizedContainerService.HintSize="478.4,250.4" sap2010:WorkflowViewState.IdRef="NTypeInto_9" InteractionMode="Simulate" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[Subject]" Version="V4">
                                 <uix:NTypeInto.Target>
                                   <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="294, 383, 778, 39" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Subject' /&gt;" Guid="70d98d3d-4a68-4824-b3aa-f10dd53242ab" InformativeScreenshot="230f2d842d6deb6eb69074fa1ea2a495.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                                     <uix:TargetAnchorable.Anchors>
