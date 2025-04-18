@@ -1,0 +1,69 @@
+Hi Everyone,
+ 
+Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add jeremy@guestandgray.com to your email list. The email address info@topfederallawyer.com is used exclusively for the newsletter.
+
+
+Gun Rights for Felons: White House Presents New/Old Way to Reinstate Firearms Rights
+
+While doing research for another post I learned about a new way for persons to seek their firearm possession privileges after a felony conviction. Let me show you what I mean:
+
+Previously:  The ATF, the Pardon Attorney and Firearms Privileges after Certain Convictions
+It is well known that a person who has been convicted of either a felony or [convictions or even deferred adjudication of] certain family violence offenses cannot carry a firearm. It can be a state crime as well as a federal crime. However, in the past the Bureau of Alcohol, Tobacco and Firearms offered a means for persons to receive their rights to carry firearms back after such convictions.
+
+The ability for this actually comes from United States Code:
+
+A person who is prohibited from possessing, shipping, transporting, or receiving firearms or ammunition may make application to the Attorney General for relief from the disabilities imposed by Federal laws with respect to the acquisition, receipt, transfer, shipment, transportation, or possession of firearms, and the Attorney General may grant such relief if it is established to his satisfaction that the circumstances regarding the disability, and the applicant’s record and reputation, are such that the applicant will not be likely to act in a manner dangerous to public safety and that the granting of the relief would not be contrary to the public interest. Any person whose application for relief from disabilities is denied by the Attorney General may file a petition with the United States district court for the district in which he resides for a judicial review of such denial. The court may in its discretion admit additional evidence where failure to do so would result in a miscarriage of justice.
+
+18 USC 925(c)
+
+The responsibility of reviewing a person's fitness to bear arms ultimately fell to the Bureau of Alcohol, Tobacco and Firearms. However, the ATF was also eventually prohibited from using funds for this purpose:
+
+Although federal law provides a means for the relief of firearms disabilities, ATF’s annual appropriation since October 1992 has prohibited the expending of any funds to investigate or act upon applications for relief from federal firearms disabilities submitted by individuals. As long as this provision is included in current ATF appropriations, ATF cannot act upon applications for relief from federal firearms disabilities submitted by individuals.
+
+See ATF website, see also Federal Register Interim Rule:
+
+In the early 1990s, Congress became concerned about the number of resources that ATF was using to adjudicate requests to relieve individual Americans from disabilities on their ownership of firearms. S. Rep. 102-353 (“The Committee believes that the approximately 40 man-years spent annually to investigate and act upon these investigations and applications would be better utilized to crack down on violent crime.”). Congressional reports also stated that judging whether applicants posed “a danger to public safety” was “a very difficult and subjective task,” id., and that “too many felons . . . whose gun ownership rights were restored went on to commit crimes with firearms,” H.R. Rep. 104-183 (1996). To allow ATF to return to its core function of investigating violations of federal firearms laws, see id. (“The Committee expects ATF to redeploy the positions and funding presently supporting firearms disability relief to the Armed Career Criminal program.”), Congress provided in 1992 that “none of the funds appropriated herein shall be available to investigate or act upon applications for relief from Federal firearms disabilities under 18 U.S.C. 925(c).” Treasury, Postal Service, and General Government Appropriations Act, 1993, Public Law 102-393, 106 Stat 1729 (1992).
+
+Since then, ATF has been unable to effectuate its regulatory authority to act on individual applications due to an identical appropriations rider enacted annually. See, e.g., Consolidated Appropriations Act, 2024, Public Law 118-42, 138 Stat. 25, 139 (2024) (“ Provided, That none of the funds appropriated herein shall be available to investigate or act upon applications for relief from Federal firearms disabilities under section 925(c) of title 18, United States Code”); see also Is there a way for a prohibited person to restore their right to receive or possess firearms and ammunition?, Bureau of Alcohol, Tobacco, Firearms and Explosives, https://www.atf.gov/​firearms/​qa/​there-way-prohibited-person-restore-their-right-receive-or-possess-firearms-and (last visited February 15, 2025) (“Although federal law provides a means for the relief of firearms disabilities, ATF's annual appropriation since October 1992 has prohibited the expending of any funds to investigate or act upon applications for relief from federal firearms disabilities submitted by individuals.”).
+
+The practical impact of this is that persons with legal action that prohibits them from carrying a firearm had to seek a pardon from the President. However, those are rarely granted.
+
+A remedy:  The Shifting of the Authority Away from the ATF
+The remedy here is simple: take away the delegated authority from the ATF and allow the Attorney General to delegate that authority somewhere else.
+
+However, ATF, which currently has regulatory authority to act on applications made under 18 U.S.C. 925(c), has been forbidden from utilizing any of its appropriated funds for staffing to process requests by individuals for over 30 years. The Department respects congressional appropriations prerogatives, and it expects its forthcoming plan under Executive Order 14206 to include legislative proposals to modify or rescind the rider. It is also undertaking a broader examination of how to address the drain on resources that caused Congress to impose the rider in the first instance, including by addressing any potential inefficiencies in the regulatory process created by 26 CFR 178.144. Although the specific contours of any new approach to the implementation of 18 U.S.C. 925(c) may be refined through future rulemaking, the Attorney General has determined, in an exercise of her discretion under the HSA and 28 U.S.C. 509-510, that the appropriate first step is to withdraw the delegation to ATF to administer section 925(c) and withdraw the moribund regulations governing individual applications to ATF for 18 U.S.C. 925(c) relief. Consistent with that rider, the process described under 27 CFR 178.144 will not be transferred to any other agency or Department. At the same time, the statute speaks clearly that the authority provided in 18 U.S.C. 925(c) is conferred on the Attorney General, and no applicable statute restricts the Attorney General's authority in these circumstances to delegate that authority or withdraw a prior delegation or amend prior rules. 2 Thus, the Attorney General is withdrawing her delegation of authority to ATF to implement 18 U.S.C. 925(c) by revising a delegation of authority in 28 CFR 0.130 and removing 27 CFR 478.144.
+
+See Federal Register Interim Rule.
+
+What Agency would Take this Responsibility?  Possibly The Pardon Attorney?
+Given that this would be a massive undertaking and there would be many people that would submit such requests, the question becomes who would review them if not the ATF. One such agency could be the office of the pardon attorney, which already reviews similar criteria for pardons. This, however would require a significant budget increase to an agency that has allegedly been long underesourced.
+
+Former Pardon Attorney Alleges that she was fired after refusing to restore firearm rights to Mel Gibson
+Former Pardon Attorney Elizabeth Oyer indicates that she was fired after refusing to restore firearm rights to Mel Gibson. While you can read The Hill  article for the more salacious parts, it is worth noting that Oyer was on a committee of Department of Justice Personnel that were tasked with considering potential persons for restoration of their rights:
+
+Oyer was placed on a new working group established at the DOJ to weigh the return of gun rights to people who were stripped of them following a criminal conviction...
+
+Oyer told the Times that as part of the task force work, she initially came up with a list of 95 people whose crimes were decades old, who had petitioned to have their gun rights restored, and for whom Oyer thought the risk of recidivism was low.
+
+The list was given to Deputy Attorney General Todd Blanche, who culled the list to nine individuals, Oyer added.
+
+This means that the process has somewhat started.
+
+So how does this work? How Would a Member of the Public seek this relief?
+As of the writing of this post there is no form to fill out in order to seek this relief. However a person can "petition the attorney general" for return of their firearms rights. The petition should show the "circumstances regarding the disability, and the applicant’s record and reputation, are such that the applicant will not be likely to act in a manner dangerous to public safety and that the granting of the relief would not be contrary to the public interest."
+
+The petition needs to go certified mail RRR to the main department of Justice. This way if a person is denied then they can "file a petition with the United States district court for the district in which he resides for a judicial review of such denial."
+
+As an aside, our office can help with this petition, so please reach out if you have any questions.
+
+CONCLUSION
+That is all that I have for you this week.  Another newsletter will come out next week.  Take care and stay safe. 
+
+The best way to make sure that you stay connected is to make sure that you and your loved ones are all connected to the newsletter. Your loved ones can do that by signing up for our public newsletter at www.gordondefense.com/contact
+
+
+Jeremy Gordon, Esq.
+Tel: 972-564-4644
+E-mail: info@topfederallawyer.com (newsletter sign-up)
+jeremy@guestandgray.com (retention inquiries)
+

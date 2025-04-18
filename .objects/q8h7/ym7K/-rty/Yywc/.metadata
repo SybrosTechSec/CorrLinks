@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Continue to Main Menu w…",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "YywcEjDP2k-uWdAIDP4RUg",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/YywcEjDP2k-uWdAIDP4RUg",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ",
+  "Created": "2025-03-28T22:01:48.3306979Z",
+  "Updated": "2025-03-28T22:01:48.3306979Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.6.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.11.1.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

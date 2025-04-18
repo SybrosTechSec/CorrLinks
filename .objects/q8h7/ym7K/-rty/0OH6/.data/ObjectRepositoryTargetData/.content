@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="C4JF0AP1a0WC4MyQfnRlSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US/pending-contact" DesignTimeRectangle="1501, 563, 415, 24" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='A' aaname='Continue to Main Menu without adding contact' innertext='Continue to Main Menu without adding contact' visibleinnertext='Continue to Main Menu without adding contact' /&gt;" Guid="111cc6e2-46d5-4c3d-bb21-6c4250355a5e" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Pending Contacts' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="3c660b31354538bf99a369331c3513cb.png" xmlns="">0b6ZRVWWu5Ue7m6y5-QaAvA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

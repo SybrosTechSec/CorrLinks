@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="On67Qm64Ske7Ujx0RmyZAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="6fcf735f-f4f8-4aff-9502-d3b1f529f311" DesignTimeRectangle="473, 679, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_*' tag='TEXTAREA' aaname='Message' /&gt;" Guid="04a48867-5501-4c35-9fe5-f7b344e29642" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="583bdcb70f2efb80dd1ae12d20d7244e.png" xmlns="">0O_g3ybi6OEOdlVciB46MGg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="By_OIOzBWU-RF1QW-qcqXg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US/login" DesignTimeRectangle="1143, 833, 546, 48" DesignTimeScaleFactor="1.25" ElementType="InputBoxPassword" FullSelectorArgument="&lt;webctrl id='textbox_4' tag='INPUT' aaname='Password' /&gt;" Guid="23f6f889-1a4a-4529-8f25-7eb8948b2700" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Login' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="50f10db5fb113065e8e06b578ce1e0e2.png" xmlns="">0Pr6Xuf-naEWF5lQAqEyeTg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
