@@ -1,1 +1,1 @@
-{"Target":{"Guid":"18b5b963-5646-4bda-a568-f9795a3da207","Ancestry":[{"IsSelected":true,"Selector":"<html app=\"chrome.exe\" title=\"CorrLinks - New Message\"/>","ValidAttributes":{"app":"chrome.exe","title":"CorrLinks - New Message","url":"https://www.corrlinks.com/en-US/mailbox/compose"}},{"IsSelected":true,"Selector":"<webctrl tag=\"META\"/>","ValidAttributes":{"tag":"META","css-selector":"html>head>meta","isleaf":"1"}}]}}
+{"Target":{"Guid":"18b5b963-5646-4bda-a568-f9795a3da207","Ancestry":[]}}

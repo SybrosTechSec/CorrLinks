@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8QzQpnB4hE-ZYq1U8ZWqqw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US/optout/block-contacts" DesignTimeRectangle="593, 507, 158, 67" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='label_textbox_*' tag='SPAN' aaname='Identification Code' innertext='Identification Code' visibleinnertext='Identification Code' /&gt;" Guid="4d05680a-b90b-4d3e-a0c0-17150bf70cf2" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Block Contacts' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="28e4b0b3ddff3f8c414d6a57b74c0456.png" xmlns="">0jCKxpkC-8kK7SQbkMSHC7Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">CheckState</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

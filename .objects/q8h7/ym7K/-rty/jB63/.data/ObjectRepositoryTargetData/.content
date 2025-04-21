@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Vf6YHPwRWkSHqMGrXL4eKw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US/optout/block-contacts" DesignTimeRectangle="1238, 697, 125, 35" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='button' aaname='Cancel' class='e-control e-btn e-lib' innertext='Cancel' visibleinnertext='Cancel' /&gt;" Guid="f54cac38-01f1-4eac-b7d4-ccccb5fceb57" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Block Contacts' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="b73673e754c0db8f76277455e559b654.png" xmlns="">0lZowan175kSQcqVkwyfRiA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
