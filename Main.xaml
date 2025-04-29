@@ -129,7 +129,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1452.0000000000002,4484" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Main Sequence" sap:VirtualizedContainerService.HintSize="1452.0000000000002,4095.2" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:Int32" Name="CurrentRow" />
       <Variable x:TypeArguments="sd:DataTable" Name="dt_EmailData" />
@@ -149,9 +149,9 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1220.8,166.4" sap2010:WorkflowViewState.IdRef="KillProcess_3" ProcessName="chrome" />
+    <ui:KillProcess AppliesTo="{x:Null}" ContinueOnError="{x:Null}" Process="{x:Null}" DisplayName="Kill Process" sap:VirtualizedContainerService.HintSize="1220.8,166.4" sap2010:WorkflowViewState.IdRef="KillProcess_4" ProcessName="chrome" />
     <ui:GetEnvironmentVariable DisplayName="Get Environment Variable" sap:VirtualizedContainerService.HintSize="1220.8,112.8" sap2010:WorkflowViewState.IdRef="GetEnvironmentVariable_1" Variable="CurrentDirectory" VariableValue="[CurrentPath]" />
-    <Sequence DisplayName="Processing." sap:VirtualizedContainerService.HintSize="1220.8,4181.6" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Processing." sap:VirtualizedContainerService.HintSize="1220.8,3792.8" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <Sequence.Variables>
         <Variable x:TypeArguments="sd:DataTable" Name="WriteDT" />
         <Variable x:TypeArguments="x:Int32" Name="IDX_2" />
@@ -164,19 +164,19 @@
       </sap:WorkflowViewStateService.ViewState>
       <ui:ReadRange Range="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_EmailData]" DisplayName="Read Range Workbook" sap:VirtualizedContainerService.HintSize="1187.2,120" sap2010:WorkflowViewState.IdRef="ReadRange_3" SheetName="EmailData" WorkbookPath="[path.Combine(CurrentPath,&quot;Data/CorrLink.xlsx&quot;)]" />
       <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="1187.2,174.4" sap2010:WorkflowViewState.IdRef="LogMessage_7" Level="Info" Message="[&quot;Successfully Read Workbook&quot;]" />
-      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1187.2,3804" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
+      <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Chrome CorrLinks - Login" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="1187.2,3415.2" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V2" WindowResize="Maximize">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IDX_2]" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1153.6,3564" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
+            <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="[IDX_2]" DataTable="[dt_EmailData]" DisplayName="For Each Row in Data Table" sap:VirtualizedContainerService.HintSize="1153.6,3175.2" sap2010:WorkflowViewState.IdRef="ForEachRow_4">
               <ui:ForEachRow.Body>
                 <ActivityAction x:TypeArguments="sd:DataRow">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1120,3398.4" sap2010:WorkflowViewState.IdRef="Sequence_81">
+                  <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="1120,3009.6" sap2010:WorkflowViewState.IdRef="Sequence_81">
                     <Sequence.Variables>
                       <Variable x:TypeArguments="x:Int32" Name="RowIndex" />
                     </Sequence.Variables>
@@ -186,20 +186,20 @@
                         <x:Boolean x:Key="IsPinned">False</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <If sap2010:Annotation.AnnotationText="Testing 5 rows now, For further it will be true." Condition="True" sap:VirtualizedContainerService.HintSize="1086.4,3338.4" sap2010:WorkflowViewState.IdRef="If_18">
+                    <If sap2010:Annotation.AnnotationText="Testing 5 rows now, For further it will be true." Condition="True" sap:VirtualizedContainerService.HintSize="1086.4,2949.6" sap2010:WorkflowViewState.IdRef="If_18">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                       <If.Then>
-                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1052.8,3056" sap2010:WorkflowViewState.IdRef="Sequence_113">
+                        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="1052.8,2667.2" sap2010:WorkflowViewState.IdRef="Sequence_113">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                             </scg:Dictionary>
                           </sap:WorkflowViewStateService.ViewState>
-                          <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;0&quot;]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="1019.2,2948" sap2010:WorkflowViewState.IdRef="If_12">
+                          <If Condition="[CurrentRow(&quot;Count&quot;).ToString=&quot;0&quot;]" DisplayName="If Count is 0" sap:VirtualizedContainerService.HintSize="1019.2,2559.2" sap2010:WorkflowViewState.IdRef="If_12">
                             <sap:WorkflowViewStateService.ViewState>
                               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -207,7 +207,7 @@
                               </scg:Dictionary>
                             </sap:WorkflowViewStateService.ViewState>
                             <If.Then>
-                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="985.6,2493.6" sap2010:WorkflowViewState.IdRef="Sequence_87">
+                              <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="416,2104.8" sap2010:WorkflowViewState.IdRef="Sequence_87">
                                 <Sequence.Variables>
                                   <Variable x:TypeArguments="x:String" Name="CurrentMonth" />
                                 </Sequence.Variables>
@@ -217,7 +217,7 @@
                                     <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                   </scg:Dictionary>
                                 </sap:WorkflowViewStateService.ViewState>
-                                <uix:NCheckState DisplayName="Check App State Login" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NCheckState DisplayName="Check App State Login" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_8" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="10" Version="V4">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,666.4" sap2010:WorkflowViewState.IdRef="Sequence_130">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -291,7 +291,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
-                                <uix:NCheckState DisplayName="Check App State Prompt after login" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_9" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NCheckState DisplayName="Check App State Prompt after login" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_9" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="10" Version="V4">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,433.6" sap2010:WorkflowViewState.IdRef="Sequence_132">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -330,7 +330,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
-                                <uix:NCheckState DisplayName="Check App State 'Identification Code'" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NCheckState DisplayName="Check App State 'Identification Code'" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_5" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="10" Version="V4">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,244" sap2010:WorkflowViewState.IdRef="Sequence_122">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -364,7 +364,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
-                                <uix:NCheckState DisplayName="Check App State Login" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NCheckState DisplayName="Check App State Login" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_1" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="10" Version="V4">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,666.4" sap2010:WorkflowViewState.IdRef="Sequence_4">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -438,7 +438,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
-                                <uix:NCheckState DisplayName="Check App State Prompt after login" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NCheckState DisplayName="Check App State Prompt after login" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NCheckState_4" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="10" Version="V4">
                                   <uix:NCheckState.IfExists>
                                     <Sequence DisplayName="Target appears" sap:VirtualizedContainerService.HintSize="449.6,433.6" sap2010:WorkflowViewState.IdRef="Sequence_110">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -477,18 +477,18 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NCheckState>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="20" DisplayName="Click Outer Mailbox" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,189.6" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="120" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click Outer Mailbox" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_35" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="120" Version="V4">
                                   <uix:NClick.Target>
-                                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US" CVScreenId="a4cd5b7c-46e4-4a87-badb-77d3dd7975ec" DesignTimeRectangle="284, 456, 77, 135" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mailbox' /&gt;" Guid="b9b9eb5b-e770-4af3-a31b-c98233e3375b" InformativeScreenshot="6a92bbf42f7355044ed6aac2572c15b1.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Dashboard' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
+                                    <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US" CVScreenId="a4cd5b7c-46e4-4a87-badb-77d3dd7975ec" DesignTimeRectangle="461, 680, 97, 167" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mailbox' /&gt;" Guid="b9b9eb5b-e770-4af3-a31b-c98233e3375b" InformativeScreenshot="ead5ffc51250626242439530b003b5ef.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Dashboard' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Outer MailBoxed Clicked&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_5" Level="Info" Message="[&quot;Outer MailBoxed Clicked&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -496,9 +496,15 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="952,432" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                                <TryCatch DisplayName="Try Catch" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="TryCatch_3">
+                                  <sap:WorkflowViewStateService.ViewState>
+                                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                                    </scg:Dictionary>
+                                  </sap:WorkflowViewStateService.ViewState>
                                   <TryCatch.Try>
-                                    <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click MailBox inside header" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="202.4,24.8" sap2010:WorkflowViewState.IdRef="NClick_105" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="90" Version="V4">
+                                    <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click MailBox inside header" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="202.4,24.8" sap2010:WorkflowViewState.IdRef="NClick_105" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="90" Version="V4">
                                       <uix:NClick.Target>
                                         <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/inbox" DesignTimeRectangle="9, 274, 123, 52" DesignTimeScaleFactor="1.25" ElementType="ListItem" FullSelectorArgument="&lt;webctrl id='menuitem_*' innertext='Mailbox' visibleinnertext='Mailbox' /&gt;" Guid="4e24b5d9-42e6-4d20-b7df-08fc1368aea8" ImageBase64="" InformativeScreenshot="18cc46b3479268e383ddf2299684eac4.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Inbox' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive" />
                                       </uix:NClick.Target>
@@ -511,10 +517,10 @@
                                     </uix:NClick>
                                   </TryCatch.Try>
                                   <TryCatch.Catches>
-                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="422.4,236" sap2010:WorkflowViewState.IdRef="Catch`1_2">
+                                    <Catch x:TypeArguments="s:Exception" sap:VirtualizedContainerService.HintSize="403.2,23.2" sap2010:WorkflowViewState.IdRef="Catch`1_2">
                                       <sap:WorkflowViewStateService.ViewState>
                                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
                                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                         </scg:Dictionary>
                                       </sap:WorkflowViewStateService.ViewState>
@@ -555,15 +561,15 @@
                                     </Catch>
                                   </TryCatch.Catches>
                                 </TryCatch>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[&quot;MailBox inside header Clicked&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,176" sap2010:WorkflowViewState.IdRef="LogMessage_25" Level="Info" Message="[&quot;MailBox inside header Clicked&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                                      <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                                       <x:Boolean x:Key="IsPinned">False</x:Boolean>
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <ui:RetryScope DisplayName="Click New Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="RetryScope_1">
+                                <ui:RetryScope DisplayName="Click New Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="RetryScope_1">
                                   <ui:RetryScope.ActivityBody>
                                     <ActivityAction>
                                       <Sequence DisplayName="Action" sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Sequence_119">
@@ -596,7 +602,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:RetryScope>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[&quot;Successfully came to Email Compose page&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_26" Level="Info" Message="[&quot;Successfully came to Email Compose page&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -604,7 +610,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_29">
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_29">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,164" sap2010:WorkflowViewState.IdRef="Sequence_117">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -622,7 +628,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click To Dropdown" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_107" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="300" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="5" DisplayName="Click To Dropdown" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_107" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Timeout="300" Version="V4">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="1042, 336, 18, 18" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;app-root&amp;gt;div&amp;gt;div&amp;gt;app-message-detail&amp;gt;div&amp;gt;section&amp;gt;form&amp;gt;div&amp;gt;ejs-multiselect&amp;gt;div&amp;gt;div&amp;gt;span' idx='4' isleaf='1' tag='SPAN' /&gt;" Guid="3f9b9a8f-4b74-446d-840c-2814c04769d9" ImageBase64="" InformativeScreenshot="b0e2c7ce735ec0ac2d5aa14599799158.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.PointOffset>
@@ -637,7 +643,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Info" Message="[&quot;DropDown For Sender Clicked &quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_27" Level="Info" Message="[&quot;DropDown For Sender Clicked &quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -645,7 +651,7 @@
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_13">
+                                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_13">
                                   <ui:MultipleAssign.AssignOperations>
                                     <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_28">
@@ -653,7 +659,7 @@
                                           <OutArgument x:TypeArguments="x:String">[Subject]</OutArgument>
                                         </ui:AssignOperation.To>
                                         <ui:AssignOperation.Value>
-                                          <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER April 16, 2025</InArgument>
+                                          <InArgument x:TypeArguments="x:String">FEDERAL PRISON NEWSLETTER April, 28, 2025</InArgument>
                                         </ui:AssignOperation.Value>
                                       </ui:AssignOperation>
                                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_41">
@@ -666,63 +672,47 @@
 Thank you for subscribing to my newsletter. Please continue to encourage others to subscribe by adding info@topfederallawyer.com to your contact list. If you are interested in hiring me to work on something for you, please add jeremy@guestandgray.com to your email list. The email address info@topfederallawyer.com is used exclusively for the newsletter.
 
 
-Gun Rights for Felons: White House Presents New/Old Way to Reinstate Firearms Rights
+Court Overturns Violation After Key Witness Fails to Show
+Wheeler, who had served time for drug and firearm charges, was almost done with his supervised release when things went sideways. Just a few weeks before it was supposed to end, he was accused of assaulting a woman named Mobley. Because of that accusation, his probation officer asked the court to revoke Wheeler’s supervised release and send him back to prison.
+At Wheeler’s revocation hearing, things got messy. Mobley, the main person accusing him, didn’t show up. The government said they tried to subpoena her — they called, texted, and visited her house once — but she basically dodged them. Despite this, the judge allowed Mobley’s (the alleged c/w) old statements to be used as evidence. Wheeler’s lawyer argued that this was unfair because without Mobley there, he couldn’t ask her questions or challenge her side of the story. Plus, Mobley had a history of flipping her story back and forth, making her statements unreliable.
+Several witnesses testified in the revocation hearing.  The hotel clerk at the front desk testified that Wheeler and Mobley started arguing. The clerk went to the back office and then heard furniture moving sounds and then came back to see that Wheeler looked like he had been in a fight and the women (including Mobley) were yelling at him. 
+The probation officer testified that Mobley, the complainant, told him that Wheeler did not place his hands on her and that she did not feel threatened. But several months later Mobley called and altered her initial story. The probation officer’s attempts to serve her consisted of a few text messages to meet and serve the subpoena and a few telephone calls. 
+The hearsay at issue was from the officers that testified. An officer testified that Mobley told him that Wheeler “had punched her in the face as well as choked her.”  Shanks also noticed a small cut to the bottom right of her lip and redness to her neck. However Shanks also indicated that he had not checked any of the boxes about whether there was redness to the neck of the complainant.  There were videos from police body cameras that showed Mobley laughing and joking with her cousin right after the alleged assault.  
+Despite all that, the judge ruled against Wheeler, saying the other evidence — like minor injuries that police noticed on Mobley — backed up her claims. The court also indicated that “The witness appeared to have a calm demeanor. She gave the statement immediately after the event in question. She called police to report the incident immediately afterward. Any false statement has a possibility of subjecting her to prosecution for false reports. And I find that the testimony is largely consistent with the injuries observed by two different officers. Largely consistent with a signed statement Ms. Mobley made immediately after the oral statement.”  The Court determined that the testimony should be admitted and ultimately Wheeler was sentenced to six more months in prison and another year on supervised release.
+Wheeler appealed the decision, arguing that the court was wrong to allow the hearsay evidence without properly balancing his right to confront the witness. The appeals court agreed. 
+The appeals court stated that the “the district court did not provide any explanation of how it valued the strength of Appellant’s interest in confronting Mobley. Yet, Appellant’s interest could not have been stronger. Mobley’s hearsay statements were essential to the court’s conclusion that Appellant committed violation number two -- the only evidence that Appellant had assaulted Mobley was her hearsay statement to police.”  
+What’s worse is that the “[district] court still failed to put any balancing on the record.”  The Fourth Circuit said “that district courts considering the admission of hearsay evidence in revocation proceedings must balance, on the record, the defendant’s interest in confrontation against the Government’s good cause.” 
+The District Court also erred in determining that Mobley was reliable and that the government “offered a satisfactory explanation for not producing the adverse witness.”  The court noted that the probation officer only made a single attempt to visit the known residence of Mobely even though probable cause to proceed with the hearing had been found and the subpoena had been issued three weeks prior to the hearing. 
+The court also determined that the error was not harmless. “We have no doubt that the district court could not have found the violation by a preponderance of the evidence absent the hearsay evidence. Without Mobley’s statements, there would have been nothing to suggest Appellant assaulted her. The officers could have testified that they were responding to a call about an assault. But beyond that, they would not have any information about what occurred, who did it, or how it happened.”
+The appeals court made it clear: without Mobley’s unreliable statements, there wasn’t enough solid evidence to prove Wheeler had committed an assault. As a result, the Fourth Circuit vacated the violation and sent the case back to be dismissed.   23-4636
 
-While doing research for another post I learned about a new way for persons to seek their firearm possession privileges after a felony conviction. Let me show you what I mean:
+**********
+We are working to retool our newsletter groups in a way that would be consistent with the BOP’s new policy on newsletters. Please be patient with us as we do this. The process may take a while because of the amount of subscribers that we have had in the past. Similarly . Please share this newsletter with others in the prison if you are able. 
 
-Previously:  The ATF, the Pardon Attorney and Firearms Privileges after Certain Convictions
-It is well known that a person who has been convicted of either a felony or [convictions or even deferred adjudication of] certain family violence offenses cannot carry a firearm. It can be a state crime as well as a federal crime. However, in the past the Bureau of Alcohol, Tobacco and Firearms offered a means for persons to receive their rights to carry firearms back after such convictions.
+Our newsletter and others may be further constrained in the future. The best way to make sure that you don’t lose us is to have your loved ones follow our public newsletter at www.gordondefense.com/contact 
+**********
 
-The ability for this actually comes from United States Code:
+Fourth Circuit Says Judge Went Too Far in Sentencing Tyzeem Nixon,  No. 23-4207
+Tyzeem Nixon got caught with a gun in his car back in 2020. Since he already had a felony record, that made it illegal for him to have a firearm at all. Nixon admitted what he did and pleaded guilty, which normally would have meant a sentence of about 3 to 4 years in prison under the sentencing guidelines.
+But while Nixon was locked up waiting for his sentence, he got into serious trouble in jail — multiple fights, several stabbings, refusal to comply with orders, screaming inappropriate things about guards and even hiding weapons. At sentencing the government moved for an upward departure, indicating that a sentence of 120 months was necessary to account for Nixon’s Criminal History and recidivism. The government also indicated that there were other incidents that happened after the filing of the PSR. 
+Nixon countered with a report from a doctor that diagnosed Nixon with severe Bipolar I disorder, PTSD, and substance abuse disorder. The doctor explained that Nixon’s violent outbursts were most likely linked to untreated mental illness — not planned, deliberate attacks. She also pointed out that when Nixon was properly medicated, his behavior improved dramatically.
+The court granted the government’s motion for an upward departure under USSG 4A1.3  and adjusted Nixon’s criminal history to category VI and the offense level to 24. The district court also declined to hear from the Doctor, stating that the court read the report but did not find it credible and did not need to hear from her in court. The court determined that Nixon had a high risk for recidivism and that the court would be derelict to ignore the activity for purposes of determining his Criminal History Category. The Fourth Circuit noted that the district court never considered criminal history category IV or V but went straight to VI. 
+The court noted that:
+Under U.S.S.G. 4A1.3, an upward departure may be warranted “[i]f reliable information indicates that the defendant’s criminal history category substantially under-represents the seriousness of the defendant’s criminal history or the likelihood that the defendant will commit other crimes[.]” U.S.S.G. 4A1.3(a)(1). Such information “may include [p]rior similar adult criminal conduct not resulting in a criminal conviction.”  The court noted that the conduct must be the same type of conduct as the offense or the “relevant conduct surrounding the offense.”  
+The court determined that the actions were bad but they were not “similar criminal conduct:”
+“None of the post-offense conduct relied upon by the district court is similar to the underlying offense: possession of a firearm and a small quantity of marijuana while a passenger in a vehicle. Nor is it similar to any relevant actions surrounding the underlying offense.”
+The Fourth Circuit also indicated that the district court further erred by failing to consider intermediate criminal history categories.  The district court did not say that it considered the intervening categories, only that it was “supposed to” and that it found category III to be woefully inadequate.  The Fourth Circuit indicated that given the “magnitude of the court’s departure here,” the court’s precedent required more information. 
+Further, the district court rejected the testimony of an unrebutted medical expert without any justification. The doctor submitted testimony about Nixon’s mental illness and the government did not bring forth any contrary evidence, but the court discredited it. The fourth Circuit indicated that this was error:
+“Based on the evidence before the court, we hold it was clearly erroneous to reject Dr. Utterback’s opinion without any countervailing evidence nor stating any reasons to discredit the expert’s testimony. As we explained… a district court’s “conclusory dismissal” of the testimony of a medical expert with “minimal citations in support of this conclusion compared to the full evidence in the record compel[s] us to hold that the district court clearly erred.”
 
-A person who is prohibited from possessing, shipping, transporting, or receiving firearms or ammunition may make application to the Attorney General for relief from the disabilities imposed by Federal laws with respect to the acquisition, receipt, transfer, shipment, transportation, or possession of firearms, and the Attorney General may grant such relief if it is established to his satisfaction that the circumstances regarding the disability, and the applicant’s record and reputation, are such that the applicant will not be likely to act in a manner dangerous to public safety and that the granting of the relief would not be contrary to the public interest. Any person whose application for relief from disabilities is denied by the Attorney General may file a petition with the United States district court for the district in which he resides for a judicial review of such denial. The court may in its discretion admit additional evidence where failure to do so would result in a miscarriage of justice.
+Finally, the court determined that these errors were not harmless:
 
-18 USC 925(c)
+“Given the proper guideline sentencing range of 41–51 months, we cannot possibly find the district court’s sentence of 114 months to be harmless error. The compounded procedural errors yielded a Guideline range completely out of step with that compelled by the circumstances of this case. We have already found much smaller disparities alone to be enough to negate harmlessness for a procedurally unreasonable sentence…Furthermore, any upward variance that could support this sentence would have to be based on an unexplained rejection of Dr. Utterback’s testimony, which we have already found to be legal error. Thus, our precedent requires a finding that the procedural errors here are not harmless and that we remand for resentencing.”
 
-The responsibility of reviewing a person's fitness to bear arms ultimately fell to the Bureau of Alcohol, Tobacco and Firearms. However, the ATF was also eventually prohibited from using funds for this purpose:
-
-Although federal law provides a means for the relief of firearms disabilities, ATF’s annual appropriation since October 1992 has prohibited the expending of any funds to investigate or act upon applications for relief from federal firearms disabilities submitted by individuals. As long as this provision is included in current ATF appropriations, ATF cannot act upon applications for relief from federal firearms disabilities submitted by individuals.
-
-See ATF website, see also Federal Register Interim Rule:
-
-In the early 1990s, Congress became concerned about the number of resources that ATF was using to adjudicate requests to relieve individual Americans from disabilities on their ownership of firearms. S. Rep. 102-353 (The Committee believes that the approximately 40 man-years spent annually to investigate and act upon these investigations and applications would be better utilized to crack down on violent crime.). Congressional reports also stated that judging whether applicants posed (a danger to public safety) was (a very difficult and subjective task,) id., and that (too many felons . . . whose gun ownership rights were restored went on to commit crimes with firearms,) H.R. Rep. 104-183 (1996). To allow ATF to return to its core function of investigating violations of federal firearms laws, see id. (The Committee expects ATF to redeploy the positions and funding presently supporting firearms disability relief to the Armed Career Criminal program.), Congress provided in 1992 that (none of the funds appropriated herein shall be available to investigate or act upon applications for relief from Federal firearms disabilities under 18 U.S.C. 925(c).) Treasury, Postal Service, and General Government Appropriations Act, 1993, Public Law 102-393, 106 Stat 1729 (1992).
-
-Since then, ATF has been unable to effectuate its regulatory authority to act on individual applications due to an identical appropriations rider enacted annually. See, e.g., Consolidated Appropriations Act, 2024, Public Law 118-42, 138 Stat. 25, 139 (2024) ( Provided, That none of the funds appropriated herein shall be available to investigate or act upon applications for relief from Federal firearms disabilities under section 925(c) of title 18, United States Code); see also Is there a way for a prohibited person to restore their right to receive or possess firearms and ammunition?, Bureau of Alcohol, Tobacco, Firearms and Explosives, https://www.atf.gov/​firearms/​qa/​there-way-prohibited-person-restore-their-right-receive-or-possess-firearms-and (last visited February 15, 2025) (Although federal law provides a means for the relief of firearms disabilities, ATF's annual appropriation since October 1992 has prohibited the expending of any funds to investigate or act upon applications for relief from federal firearms disabilities submitted by individuals.).
-
-The practical impact of this is that persons with legal action that prohibits them from carrying a firearm had to seek a pardon from the President. However, those are rarely granted.
-
-A remedy:  The Shifting of the Authority Away from the ATF
-The remedy here is simple: take away the delegated authority from the ATF and allow the Attorney General to delegate that authority somewhere else.
-
-However, ATF, which currently has regulatory authority to act on applications made under 18 U.S.C. 925(c), has been forbidden from utilizing any of its appropriated funds for staffing to process requests by individuals for over 30 years. The Department respects congressional appropriations prerogatives, and it expects its forthcoming plan under Executive Order 14206 to include legislative proposals to modify or rescind the rider. It is also undertaking a broader examination of how to address the drain on resources that caused Congress to impose the rider in the first instance, including by addressing any potential inefficiencies in the regulatory process created by 26 CFR 178.144. Although the specific contours of any new approach to the implementation of 18 U.S.C. 925(c) may be refined through future rulemaking, the Attorney General has determined, in an exercise of her discretion under the HSA and 28 U.S.C. 509-510, that the appropriate first step is to withdraw the delegation to ATF to administer section 925(c) and withdraw the moribund regulations governing individual applications to ATF for 18 U.S.C. 925(c) relief. Consistent with that rider, the process described under 27 CFR 178.144 will not be transferred to any other agency or Department. At the same time, the statute speaks clearly that the authority provided in 18 U.S.C. 925(c) is conferred on the Attorney General, and no applicable statute restricts the Attorney General's authority in these circumstances to delegate that authority or withdraw a prior delegation or amend prior rules. 2 Thus, the Attorney General is withdrawing her delegation of authority to ATF to implement 18 U.S.C. 925(c) by revising a delegation of authority in 28 CFR 0.130 and removing 27 CFR 478.144.
-
-See Federal Register Interim Rule.
-
-What Agency would Take this Responsibility?  Possibly The Pardon Attorney?
-Given that this would be a massive undertaking and there would be many people that would submit such requests, the question becomes who would review them if not the ATF. One such agency could be the office of the pardon attorney, which already reviews similar criteria for pardons. This, however would require a significant budget increase to an agency that has allegedly been long underesourced.
-
-Former Pardon Attorney Alleges that she was fired after refusing to restore firearm rights to Mel Gibson
-Former Pardon Attorney Elizabeth Oyer indicates that she was fired after refusing to restore firearm rights to Mel Gibson. While you can read The Hill  article for the more salacious parts, it is worth noting that Oyer was on a committee of Department of Justice Personnel that were tasked with considering potential persons for restoration of their rights:
-
-Oyer was placed on a new working group established at the DOJ to weigh the return of gun rights to people who were stripped of them following a criminal conviction...
-
-Oyer told the Times that as part of the task force work, she initially came up with a list of 95 people whose crimes were decades old, who had petitioned to have their gun rights restored, and for whom Oyer thought the risk of recidivism was low.
-
-The list was given to Deputy Attorney General Todd Blanche, who culled the list to nine individuals, Oyer added.
-
-This means that the process has somewhat started.
-
-So how does this work? How Would a Member of the Public seek this relief?
-As of the writing of this post there is no form to fill out in order to seek this relief. However a person can (petition the attorney general) for return of their firearms rights. The petition should show the (circumstances regarding the disability, And the applicant’s record And reputation, are such that the applicant will Not be likely To act In a manner dangerous To Public safety And that the granting Of the relief would Not be contrary To the Public interest.)
-
-The petition needs to go certified mail RRR to the main department of Justice. This way if a person is denied then they can (file a petition With the United States district court For the district In which he resides For a judicial review Of such denial.)
-
-As an aside, our office can help with this petition, so please reach out if you have any questions.
+The court reversed the sentence and remanded the case back down for resentencing.   23-4207
 
 CONCLUSION
 That is all that I have for you this week.  Another newsletter will come out next week.  Take care and stay safe. 
-
-The best way to make sure that you stay connected is to make sure that you and your loved ones are all connected to the newsletter. Your loved ones can do that by signing up for our public newsletter at www.gordondefense.com/contact
 
 
 Jeremy Gordon, Esq.
@@ -741,7 +731,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:MultipleAssign>
-                                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_14">
+                                <ui:MultipleAssign DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_14">
                                   <ui:MultipleAssign.AssignOperations>
                                     <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_30">
@@ -769,13 +759,13 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:MultipleAssign>
-                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="ForEach`1_10" Values="[RecipientList]">
+                                <ui:ForEach x:TypeArguments="x:String" CurrentIndex="{x:Null}" DisplayName="For Each currentText" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="ForEach`1_10" Values="[RecipientList]">
                                   <ui:ForEach.Body>
                                     <ActivityAction x:TypeArguments="x:String">
                                       <ActivityAction.Argument>
                                         <DelegateInArgument x:TypeArguments="x:String" Name="currentText" />
                                       </ActivityAction.Argument>
-                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,587.2" sap2010:WorkflowViewState.IdRef="Sequence_89">
+                                      <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="467.2,585.6" sap2010:WorkflowViewState.IdRef="Sequence_89">
                                         <sap:WorkflowViewStateService.ViewState>
                                           <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -893,7 +883,7 @@ jeremy@guestandgray.com (retention inquiries)
                                             </scg:Dictionary>
                                           </sap:WorkflowViewStateService.ViewState>
                                         </ui:CommentOut>
-                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,167.2" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Info" Message="[&quot;Sender Clicked&quot;]" />
+                                        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="433.6,165.6" sap2010:WorkflowViewState.IdRef="LogMessage_34" Level="Info" Message="[&quot;Sender Clicked&quot;]" />
                                       </Sequence>
                                     </ActivityAction>
                                   </ui:ForEach.Body>
@@ -904,7 +894,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:ForEach>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;Inside Count 0 loop&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_30" Level="Info" Message="[&quot;Inside Count 0 loop&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -912,7 +902,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Dropdown To close" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_110" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Dropdown To close" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_110" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="1042, 285, 18, 18" DesignTimeScaleFactor="1" FuzzySelectorArgument="&lt;webctrl type='' class='e-input-group-icon e-ddl-icon' isleaf='1' tag='SPAN' aaname='' /&gt;" Guid="64536031-dd67-43d5-8530-b0b2eed5a5e9" InformativeScreenshot="861eb15bf7f70cb4d9ad767e8c482a8c.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="FuzzySelector" Version="V4" Visibility="Interactive">
                                       <uix:TargetAnchorable.PointOffset>
@@ -927,7 +917,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT textbox_7'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_111" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'INPUT textbox_7'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_111" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                                   <uix:NClick.KeyModifiers>
                                     <InArgument x:TypeArguments="uix:NKeyModifiers">
                                       <Literal x:TypeArguments="uix:NKeyModifiers" sap2010:WorkflowViewState.IdRef="Literal`1_1" />
@@ -943,7 +933,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Subject" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NTypeInto_29" InteractionMode="Simulate" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[Subject]" Version="V4">
+                                <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="None" DisplayName="Type Subject" EmptyFieldMode="MultiLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NTypeInto_29" InteractionMode="Simulate" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Text="[Subject]" Version="V4">
                                   <uix:NTypeInto.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" DesignTimeRectangle="294, 383, 778, 39" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' aaname='Subject' /&gt;" Guid="70d98d3d-4a68-4824-b3aa-f10dd53242ab" InformativeScreenshot="230f2d842d6deb6eb69074fa1ea2a495.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" WaitForReadyArgument="Complete">
                                       <uix:TargetAnchorable.Anchors>
@@ -960,7 +950,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NTypeInto>
-                                <ui:SetToClipboard DisplayName="Email Copied" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="SetToClipboard_11" Text="[EmailBody]">
+                                <ui:SetToClipboard DisplayName="Email Copied" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="SetToClipboard_11" Text="[EmailBody]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -968,7 +958,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:SetToClipboard>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Message Area" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_112" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click Message Area" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_112" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="4576a834-0cfa-41ed-a966-342b7986be2d" DesignTimeRectangle="472, 655, 972, 250" DesignTimeScaleFactor="1.25" ElementType="InputBox" FullSelectorArgument="&lt;webctrl id='textbox_*' tag='TEXTAREA' /&gt;" Guid="356e0567-4dd4-42e3-80f7-d97de8240063" InformativeScreenshot="acff7741af189e5d64f57ed03a95ed76.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -979,7 +969,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_30">
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_30">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,301.6" sap2010:WorkflowViewState.IdRef="Sequence_118">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -1001,7 +991,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Email Pasted" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][d(ctrl)]a[u(ctrl)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V4">
+                                <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Email Pasted" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_10" Shortcuts="[d(hk)][d(ctrl)]a[u(ctrl)][u(hk)][d(hk)][k(Back)][u(hk)][d(hk)][d(ctrl)]v[u(ctrl)][u(hk)]" Version="V4">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1009,7 +999,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NKeyboardShortcuts>
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_16">
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_16">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,301.6" sap2010:WorkflowViewState.IdRef="Sequence_90">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -1031,7 +1021,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <uix:NClick ActivateBefore="False" ClickType="Single" DisplayName="Click 'Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_113" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick ActivateBefore="False" ClickType="Single" DisplayName="Click 'Send'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_113" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" ContentHash="s8pcCPlMpUyhW7zz_-_Fsg" DesignTimeRectangle="743, 572, 100, 28" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;webctrl parentid='rootLayout' tag='BUTTON' aaname='Send' /&gt;" Guid="239a5436-dc1d-41c0-a988-7efcdd4a3d4e" InformativeScreenshot="a5174bea879ddf79aeb654d859571ad9.png" Reference="49cud42BnU-vQNAqijkEjQ/ckGwZHtpikqq9-QJdJDy5Q" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -1042,7 +1032,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <ui:MultipleAssign sap2010:Annotation.AnnotationText="Adding Last Sent Date,Count and Current Month in Excel Sheet." DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="952,116.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_15">
+                                <ui:MultipleAssign sap2010:Annotation.AnnotationText="Adding Last Sent Date,Count and Current Month in Excel Sheet." DisplayName="Multiple Assign" sap:VirtualizedContainerService.HintSize="382.4,116.8" sap2010:WorkflowViewState.IdRef="MultipleAssign_15">
                                   <ui:MultipleAssign.AssignOperations>
                                     <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
                                       <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_32">
@@ -1079,7 +1069,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:MultipleAssign>
-                                <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_EmailData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="WriteRange_13" SheetName="EmailData" WorkbookPath="[path.Combine(CurrentPath,&quot;Data/CorrLink.xlsx&quot;)]">
+                                <ui:WriteRange StartingCell="{x:Null}" WorkbookPathResource="{x:Null}" AddHeaders="True" DataTable="[dt_EmailData]" DisplayName="Write Range Workbook" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="WriteRange_13" SheetName="EmailData" WorkbookPath="[path.Combine(CurrentPath,&quot;Data/CorrLink.xlsx&quot;)]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1087,7 +1077,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:WriteRange>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;Output written to Excel Sheet&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="LogMessage_31" Level="Info" Message="[&quot;Output written to Excel Sheet&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>
@@ -1095,7 +1085,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:LogMessage>
-                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="NClick_114" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
+                                <uix:NClick ActivateBefore="True" ClickType="Single" DelayBefore="10" DisplayName="Click 'OK'" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="NClick_114" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="11cf6911-b9f9-4727-9b6f-e585ce08996b" Version="V4">
                                   <uix:NClick.Target>
                                     <uix:TargetAnchorable BrowserURL="corrlinks.com/en-US/mailbox/compose" CVScreenId="d7dbf7f3-c02a-430c-b99a-74d24d3ef718" DesignTimeRectangle="1268, 396, 56, 35" DesignTimeScaleFactor="1.25" ElementType="Button" FullSelectorArgument="&lt;webctrl tag='BUTTON' type='button' idx='3' /&gt;" Guid="33b94d8b-f4dd-4ac4-b2af-d796aba2d154" InformativeScreenshot="3343291367151ef84f53efe7e2b14776.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - New Message' /&gt;" SearchSteps="Selector" Version="V4" Visibility="Interactive" />
                                   </uix:NClick.Target>
@@ -1106,7 +1096,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </uix:NClick>
-                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="952,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+                                <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="382.4,56.8" sap2010:WorkflowViewState.IdRef="CommentOut_17">
                                   <ui:CommentOut.Body>
                                     <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="416,430.4" sap2010:WorkflowViewState.IdRef="Sequence_93">
                                       <sap:WorkflowViewStateService.ViewState>
@@ -1133,7 +1123,7 @@ jeremy@guestandgray.com (retention inquiries)
                                     </scg:Dictionary>
                                   </sap:WorkflowViewStateService.ViewState>
                                 </ui:CommentOut>
-                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="952,48" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;Loop for 0 Count Successful&quot;]">
+                                <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="382.4,48" sap2010:WorkflowViewState.IdRef="LogMessage_32" Level="Info" Message="[&quot;Loop for 0 Count Successful&quot;]">
                                   <sap:WorkflowViewStateService.ViewState>
                                     <scg:Dictionary x:TypeArguments="x:String, x:Object">
                                       <x:Boolean x:Key="IsExpanded">False</x:Boolean>

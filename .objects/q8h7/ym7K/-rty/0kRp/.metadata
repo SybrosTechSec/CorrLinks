@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Mailbox",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "0kRprm8LCkyqVTORYjCUAA",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/0kRprm8LCkyqVTORYjCUAA",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/-rtyIh7B1EW_bC5k2IIZxQ",
+  "Created": "2025-04-22T16:16:07.5673167Z",
+  "Updated": "2025-04-22T16:16:07.5673167Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

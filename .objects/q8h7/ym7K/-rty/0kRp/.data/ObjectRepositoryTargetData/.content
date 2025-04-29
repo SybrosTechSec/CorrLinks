@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wuebpJnyTUuPC8_0rJLD4w" Reference="YDU8MSlOcUmlFkOMVuyVjw/0kRprm8LCkyqVTORYjCUAA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="corrlinks.com/en-US" CVScreenId="4d12faf3-19dd-4e50-8076-c8852efaa995" DesignTimeRectangle="461, 680, 97, 167" DesignTimeScaleFactor="1.25" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Mailbox' /&gt;" Guid="fc1d1055-a1c8-402f-bf2a-f28868dad994" ScopeSelectorArgument="&lt;html app='chrome.exe' title='CorrLinks - Dashboard' /&gt;" SearchSteps="Selector" Version="V5" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="ead5ffc51250626242439530b003b5ef.png" xmlns="">0ny-BsF5dpE-BBBUkFpbw8Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">None</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
