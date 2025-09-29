@@ -8,7 +8,8 @@
     "UiPath.Mail.Activities": "[2.0.11]",
     "UiPath.System.Activities": "[25.2.3]",
     "UiPath.Testing.Activities": "[24.10.4]",
-    "UiPath.UIAutomation.Activities": "[25.2.1-preview]"
+    "UiPath.UIAutomation.Activities": "[25.2.1-preview]",
+    "UiPath.WebAPI.Activities": "[2.3.0]"
   },
   "webServices": [],
   "entitiesStores": [],

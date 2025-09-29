@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome CorrLinks - New Message(2)",
+  "Type": "Screen",
+  "Id": "-ogbJQPsxUiT9VTsgCo_AQ",
+  "Reference": "YDU8MSlOcUmlFkOMVuyVjw/-ogbJQPsxUiT9VTsgCo_AQ",
+  "ParentRef": "YDU8MSlOcUmlFkOMVuyVjw/ym7K6_50b0SGXsq62SFo8w",
+  "Created": "2025-09-29T14:11:22.2845918Z",
+  "Updated": "2025-09-29T14:11:22.2845918Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.2.1.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=24.12.3.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
